@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>bulkan - PH Volcanoes</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@2.1.9/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+
+      #map {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+      }
+
+      #logo {
+          position: absolute;
+          right: 40px;
+          z-index: 1;
+      }
+
+      #logo > img {
+          height: 110px;
+      }
+
+      .legend {
+          background-color: #fff;
+          border-radius: 3px;
+          top: 135px;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+          padding: 10px;
+          position: absolute;
+          right: 10px;
+          z-index: 1;
+      }
+
+      .legend h2 {
+          margin: 0 0 10px;
+      }
+
+      .legend div span {
+          border-radius: 50%;
+          display: inline-block;
+          height: 10px;
+          margin-right: 5px;
+          width: 10px;
+      }
+  </style>
+</head>
+<body>
+<div id="logo">
+  <img src="assets/logo.png" alt="logo" />
+</div>
+<div id="map"></div>
+<div id="legend" class="legend">
+  <h2>Legend</h2>
+  <div><span style="background-color: red"></span>Active volcanoes</div>
+  <div><span style="background-color: yellow"></span>Potentially active volcanoes</div>
+  <div><span style="background-color: gray"></span>Inactive volcanoes</div>
+</div>
+<script>
+  // set initial load point to PH
+  const map = new maplibregl.Map({
+    container: "map",
+    style: "https://api.maptiler.com/maps/topo/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+    center: [121.652, 12.954],
+    zoom: 5.3,
+  })
+
+  map.on("load", () => {
+    map.addSource("volcanoes", {
+      type: "geojson",
+      data: "./data/_index.geojson"
+    })
+
+    const classification = [
+      "active",
+      "potentially_active",
+      "inactive"
+    ]
+
+    classification
+      .forEach(cl => {
+        map.loadImage(
+          `./assets/${cl}.png`,
+          function(error, image) {
+            if (error) throw error
+            map.addImage(`${cl}-marker`, image)
+
+            map.addLayer({
+              id: `${cl}-volcanoes`,
+              type: "symbol",
+              source: "volcanoes",
+              filter: ["==", "classification", cl],
+              layout: {
+                "icon-allow-overlap": true,
+                "icon-image": `${cl}-marker`,
+                "icon-size": [
+                  "match",
+                  ["get", "classification"],
+                  "active", 1.30,
+                  "potentially_active", 1,
+                  "inactive", 0.5,
+                  0.5,
+                ],
+                "text-size": 11,
+                "text-font": [
+                  "Open Sans Semibold",
+                  "Arial Unicode MS Bold",
+                ],
+                "text-offset": [0, 1.25],
+                "text-anchor": "top"
+              },
+            })
+          })
+      })
+
+    // show volcano details on hover
+    const volcanoInfoPopup = new maplibregl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+    })
+
+    classification
+      .forEach(c => {
+        map.on("mouseenter", `${c}-volcanoes`, (e) => {
+          map.getCanvas().style.cursor = "pointer"
+          const coordinates = e.features[0].geometry.coordinates.slice()
+
+          // Ensure that if the map is zoomed out such that
+          // multiple copies of the feature are visible, the
+          // popup appears over the copy being pointed to.
+          while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360
+          }
+
+          volcanoInfoPopup
+            .setLngLat(coordinates)
+            .setHTML("<strong>" + e.features[0].properties.name + "</strong>")
+            .addTo(map)
+        })
+
+        map.on("mouseleave", `${c}-volcanoes`, () => {
+          map.getCanvas().style.cursor = ""
+          volcanoInfoPopup.remove()
+        })
+      })
+
+    map.addControl(new maplibregl.NavigationControl())
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+{
+  "type": "Topology",
+  "objects": {
+    "active": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "coordinates": [121.103668, 17.310982],
+          "properties": {
+            "name": "Ambalatungan Group",
+            "classification": "active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.94, 19.523],
+          "properties": { "name": "Babuyan Claro", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.48, 14.07],
+          "properties": { "name": "Banahaw", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.513, 11.558],
+          "properties": { "name": "Biliran", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.05, 12.77],
+          "properties": { "name": "Bulusan", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.123, 18.222],
+          "properties": { "name": "Cagua", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.86, 18.83],
+          "properties": {
+            "name": "Camiguin de Babuyanes",
+            "classification": "active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.202, 19.077],
+          "properties": { "name": "Didicas", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.673, 9.203],
+          "properties": { "name": "Hibok-Hibok", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.01, 20.469],
+          "properties": { "name": "Iraya", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.457, 13.457],
+          "properties": { "name": "Iriga", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.38, 13.658],
+          "properties": { "name": "Isarog", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.057, 6.013],
+          "properties": { "name": "Jolo Group", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.132, 10.412],
+          "properties": { "name": "Kanlaon", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [126.047, 7.382],
+          "properties": {
+            "name": "Leonard Kniaseff",
+            "classification": "active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.32, 7.647],
+          "properties": { "name": "Makaturing", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.07, 6.37],
+          "properties": { "name": "Matutum", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.685, 13.257],
+          "properties": { "name": "Mayon", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.892, 6.113],
+          "properties": {
+            "name": "Mount Melibengoy",
+            "classification": "active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.068, 7.877],
+          "properties": { "name": "Musuan", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.35, 15.13],
+          "properties": { "name": "Pinatubo", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.5, 7.7],
+          "properties": { "name": "Ragang", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.3, 14.12],
+          "properties": {
+            "name": "San Pablo Volcanic Field",
+            "classification": "active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.917, 19.534],
+          "properties": { "name": "Smith", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.993, 14.002],
+          "properties": { "name": "Taal", "classification": "active" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.75, 20.33],
+          "properties": {
+            "name": "Unnamed volcano (Ibugos)",
+            "classification": "active"
+          }
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "bbox": [120.35, 6.013, 126.047, 20.469]
+}

@@ -1,0 +1,1753 @@
+{
+  "type": "Topology",
+  "objects": {
+    "inactive": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "coordinates": [121.166666666667, 14.1666666666667],
+          "properties": {
+            "name": "Alligator Lake",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.183333333333, 13.9],
+          "properties": { "name": "Anilao Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.366666666667, 14.15],
+          "properties": { "name": "Atimbia", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.825, 14.2166666666667],
+          "properties": { "name": "Bagacay", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.366666666667, 14.95],
+          "properties": { "name": "Balikabok", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.683333333333, 15.8666666666667],
+          "properties": {
+            "name": "Mount Balungao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.5, 14.0666666666667],
+          "properties": {
+            "name": "Mount Banahao de Lucban",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.733333333333, 15.7833333333333],
+          "properties": {
+            "name": "Mount Bangcay",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.95, 12.8333333333333],
+          "properties": { "name": "Mount Batuan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.8, 14.05],
+          "properties": {
+            "name": "Mount Batulao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.4, 14.1666666666667],
+          "properties": {
+            "name": "Mount Bayaguitos",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.05, 13.9],
+          "properties": { "name": "Bigain Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124, 12.6166666666667],
+          "properties": {
+            "name": "Mount Binitacan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.233333333333, 14.1],
+          "properties": { "name": "Mount Bulalo", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.875, 15.8333333333333],
+          "properties": { "name": "Mount Burgos", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.333333333333, 15.7],
+          "properties": {
+            "name": "Mount Cabaluyan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.316666666667, 15.7],
+          "properties": {
+            "name": "Mount Cahelietan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.75, 14.1333333333333],
+          "properties": {
+            "name": "Mount Cariliao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.966666666667, 12.5833333333333],
+          "properties": {
+            "name": "Mount Coloumotan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.333333333333, 15.7083333333333],
+          "properties": {
+            "name": "Mount Condong",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.933333333333, 12.7],
+          "properties": {
+            "name": "Mount Culangalan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.0875, 13.8958333333333],
+          "properties": { "name": "Mount Culasi", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.016666666667, 13.9166666666667],
+          "properties": { "name": "Culasi Peak", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.666666666667, 15.8],
+          "properties": { "name": "Mount Cuyapo", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.811666666667, 16.5211666666667],
+          "properties": { "name": "Mount Daclan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.366666666667, 14],
+          "properties": {
+            "name": "Mount Dagatan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.033333333333, 12.6],
+          "properties": {
+            "name": "Gate Mountains",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.975, 12.775],
+          "properties": { "name": "Homahan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.116666666667, 12.7666666666667],
+          "properties": {
+            "name": "Irosin Caldera",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124, 12.7666666666667],
+          "properties": {
+            "name": "Mount Jormajan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.933333333333, 12.8],
+          "properties": { "name": "Mount Juban", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.166666666667, 14.15],
+          "properties": { "name": "La Mesa Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.316666666667, 14.1333333333333],
+          "properties": { "name": "Mount Lagula", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.241666666667, 14.1],
+          "properties": { "name": "Mount Buboy", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.241666666667, 14.0333333333333],
+          "properties": {
+            "name": "Bunsulan Hills",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.3, 14.1166666666667],
+          "properties": { "name": "Imoc Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.25, 14.1166666666667],
+          "properties": { "name": "Mount Luyong", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.25, 14.1083333333333],
+          "properties": {
+            "name": "Mount Mabilog",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.258333333333, 14.0333333333333],
+          "properties": { "name": "Mani Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.241666666667, 14.05],
+          "properties": { "name": "Mapait Hills", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.283333333333, 14.0833333333333],
+          "properties": { "name": "Mount Mapula", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.216666666667, 14.0833333333333],
+          "properties": { "name": "Mount Olilia", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.241666666667, 14.0833333333333],
+          "properties": {
+            "name": "Mount Tamlong",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.341, 14.125],
+          "properties": { "name": "Lake Muhikap", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.366666666667, 14.1166666666667],
+          "properties": { "name": "Lake Yambo", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.369, 14.112],
+          "properties": { "name": "Lake Pandin", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.375, 14.0833333333333],
+          "properties": {
+            "name": "Lake Calibato",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.341666666667, 14.1083333333333],
+          "properties": {
+            "name": "Lake Palakpakin",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.341666666667, 14.0833333333333],
+          "properties": { "name": "Lake Bunot", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.333333333333, 14.0833333333333],
+          "properties": {
+            "name": "Sampaloc Lake",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.3, 14.1083333333333],
+          "properties": { "name": "Imoc Maar", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.3, 14.1],
+          "properties": {
+            "name": "Unnamed Laguna Maar",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.7, 11.0333333333333],
+          "properties": { "name": "Mount Abunug", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.966666666667, 10.7916666666667],
+          "properties": { "name": "Mount Abuyug", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.75, 11.1083333333333],
+          "properties": { "name": "Mount Alto", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.85, 10.8666666666667],
+          "properties": { "name": "Mount", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.583333333333, 11.5333333333333],
+          "properties": {
+            "name": "Mount Ascuero",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.066666666667, 12.9166666666667],
+          "properties": {
+            "name": "Banton Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.483333333333, 11.4333333333333],
+          "properties": { "name": "Mount Baonao", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.166666666667, 9.16666666666667],
+          "properties": { "name": "Mount Bontes", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.616666666667, 11.6166666666667],
+          "properties": {
+            "name": "Mount Camalobagoan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.416666666667, 11.9666666666667],
+          "properties": {
+            "name": "Mount Canandag",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.216666666667, 10.3],
+          "properties": {
+            "name": "Mount Cantoloc",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.5, 11.5833333333333],
+          "properties": {
+            "name": "Mount Capinyayan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.433333333333, 11.6666666666667],
+          "properties": {
+            "name": "Mount Caraycaray",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.883333333333, 13.0333333333333],
+          "properties": {
+            "name": "Carlota Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.316666666667, 11.9333333333333],
+          "properties": {
+            "name": "Mount Costa Rica",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.683333333333, 11.0666666666667],
+          "properties": { "name": "Lake Danao", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.5125, 13.1043333333333],
+          "properties": { "name": "Mount Dumali", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.516666666667, 11.4333333333333],
+          "properties": { "name": "Mount Gayad", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.516666666667, 11.5833333333333],
+          "properties": { "name": "Mount Giron", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.483333333333, 11.6166666666667],
+          "properties": {
+            "name": "Mount Guiauasan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.483333333333, 11.6],
+          "properties": {
+            "name": "Mount Gunansan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.927777777778, 13.0225],
+          "properties": {
+            "name": "Isabel Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.716666666667, 11.1],
+          "properties": {
+            "name": "Mount Janagdan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.883333333333, 10.8666666666667],
+          "properties": {
+            "name": "Mount Kasibor",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.368138888889, 11.9416666666667],
+          "properties": {
+            "name": "Kirikite Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.266666666667, 12.4666666666667],
+          "properties": { "name": "Knob Peak", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.8, 11.1166666666667],
+          "properties": { "name": "Mount Laao", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.516666666667, 11.0166666666667],
+          "properties": { "name": "Mount Labi", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.516666666667, 11.5166666666667],
+          "properties": { "name": "Mount Lauaan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.816666666667, 11.0166666666667],
+          "properties": { "name": "Mount Lobi", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.691666666667, 11.025],
+          "properties": {
+            "name": "Mount Maagonoc",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.683333333333, 11.2166666666667],
+          "properties": { "name": "Mount Macape", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.7, 12.9166666666667],
+          "properties": {
+            "name": "Maestre de Campo Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.9, 13.4333333333333],
+          "properties": {
+            "name": "Mount Malasimbo",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.45, 11.65],
+          "properties": {
+            "name": "Mount Maliwatan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.416666666667, 13.2066666666667],
+          "properties": { "name": "Mount Naujan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.258333333333, 9.93333333333333],
+          "properties": {
+            "name": "Mount Nelangcapan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.533333333333, 11.4166666666667],
+          "properties": { "name": "Mount Osmeña", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.166666666667, 11.2833333333333],
+          "properties": {
+            "name": "Pan de Azucar",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.394152, 11.668178],
+          "properties": {
+            "name": "Mount Panamao, Biliran",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.733333333333, 11.1166666666667],
+          "properties": {
+            "name": "Mount Proto-Labi",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.05, 12.8166666666667],
+          "properties": {
+            "name": "Simara Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.4, 11.6666666666667],
+          "properties": { "name": "Tabuanan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.433333333333, 11.55],
+          "properties": { "name": "Tamburok", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.5, 11.5333333333333],
+          "properties": {
+            "name": "Mount Vulcan, Biliran",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.883333333333, 5.69166666666667],
+          "properties": { "name": "Mount Alu", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.63, 8.38833333333333],
+          "properties": { "name": "Mount Ampiro", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.25, 7.58333333333333],
+          "properties": {
+            "name": "Mount Bacauan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.139444444444, 6.02777777777778],
+          "properties": { "name": "Mount Bagsak", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.066666666667, 6.55],
+          "properties": { "name": "Basilan Peak", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.183333333333, 7.48333333333333],
+          "properties": {
+            "name": "Mount Batelian",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.283333333333, 7.85416666666667],
+          "properties": { "name": "Mount Bigong", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.441666666667, 6.06666666666667],
+          "properties": {
+            "name": "Mount Bitinan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.615, 5.26333333333333],
+          "properties": { "name": "Mount Bolod", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.816666666667, 6.15],
+          "properties": {
+            "name": "Mount Bucutua",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.008333333333, 6.03333333333333],
+          "properties": { "name": "Bud Datu", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.266666666667, 7.6],
+          "properties": { "name": "Mount Buga", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.833333333333, 6.13333333333333],
+          "properties": { "name": "Mount Bulan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.175, 7.70416666666667],
+          "properties": { "name": "Mount Bulibu", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.416666666667, 6.03333333333333],
+          "properties": { "name": "Mount Capual", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.178333333333, 5.98166666666667],
+          "properties": { "name": "Mount Dakula", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.325, 7.63333333333333],
+          "properties": {
+            "name": "Mount Dupungan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.083333333333, 6.025],
+          "properties": { "name": "Mount Guimba", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.274722222222, 6.08194444444444, 0],
+          "properties": {
+            "name": "Mount Gujangan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.233333333333, 7.68333333333333, 0],
+          "properties": { "name": "Mount Imbing", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.216666666667, 5.81166666666667, 0],
+          "properties": { "name": "Mount Kamawi", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.366666666667, 5.925, 0],
+          "properties": {
+            "name": "Mount Kausakar",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.925, 6.31666666666667, 0],
+          "properties": {
+            "name": "Mount Linawan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.833333333333, 5.68333333333333, 0],
+          "properties": { "name": "Mount Lugus", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.116666666667, 5.93333333333333, 0],
+          "properties": { "name": "Mount Mahala", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.973333333333, 5.94, 0],
+          "properties": { "name": "Mount Makam", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.266666666667, 5.03333333333333, 0],
+          "properties": { "name": "Mantabuan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.183333333333, 7.55, 0],
+          "properties": {
+            "name": "Mount Margosa Tubig",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.3, 6.53333333333333, 0],
+          "properties": {
+            "name": "Mount Matanal",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.066666666667, 6.03333333333333, 0],
+          "properties": {
+            "name": "Mount Matanding",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.616666666667, 8.30833333333333, 0],
+          "properties": { "name": "Mount North", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.166666666667, 5.96666666666667, 0],
+          "properties": { "name": "Lake Panamao", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.833333333333, 6.60833333333333, 0],
+          "properties": {
+            "name": "Pangasahan Hill",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.158333333333, 5.81666666666667, 0],
+          "properties": { "name": "Mount Pata", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.083333333333, 5.85, 0],
+          "properties": { "name": "Mount Patian", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.233333333333, 7.98333333333333, 0],
+          "properties": {
+            "name": "Mount Pinukis",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.3, 5.90833333333333, 0],
+          "properties": {
+            "name": "Mount Sandahan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.85, 5.53333333333333, 0],
+          "properties": { "name": "Mount Siasi", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.791666666667, 5.55833333333333, 0],
+          "properties": {
+            "name": "Mount Sigangan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.208333333333, 6.63333333333333, 0],
+          "properties": {
+            "name": "Mount Siningcapan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.25, 8, 0],
+          "properties": {
+            "name": "Sugarloaf Complex",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.075, 6.025, 0],
+          "properties": { "name": "Mount Sungal", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.075, 5.95, 0],
+          "properties": {
+            "name": "Mount Talipao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.333333333333, 5.13333333333333, 0],
+          "properties": {
+            "name": "Mount Tandubas",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.965277777778, 6.30166666666667, 0],
+          "properties": {
+            "name": "Tapiantana Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.9, 5.73333333333333, 0],
+          "properties": { "name": "Tapul Island", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.931666666667, 5.98666666666667, 0],
+          "properties": { "name": "Mount Taran", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.141666666667, 7.53333333333333, 0],
+          "properties": {
+            "name": "Mount Tarranosa",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.833333333333, 6.23333333333333, 0],
+          "properties": {
+            "name": "Mount Tatalan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.583333333333, 7.89166666666667, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 01",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.558333333333, 7.89166666666667, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 02",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.558333333333, 7.90833333333333, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 03",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.55, 7.93333333333333, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 04",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.541666666667, 7.91666666666667, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 05",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.516666666667, 7.925, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 06",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.520833333333, 7.89166666666667, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 07",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.516666666667, 7.95, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 08",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.5, 7.91666666666667, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 09",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.483333333333, 7.95, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 10",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.475, 7.93333333333333, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 11",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.458333333333, 7.95833333333333, 0],
+          "properties": {
+            "name": "Unnamed Tukuran Cone 12",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.316666666667, 6.025, 0],
+          "properties": {
+            "name": "Tulayan Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.275, 5.91666666666667, 0],
+          "properties": { "name": "Mount Ukan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.258333333333, 5.98333333333333, 0],
+          "properties": { "name": "Mount Urot", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.603333333333, 6.25, 0],
+          "properties": {
+            "name": "West Bolod Island",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.166666666667, 7.85, 0],
+          "properties": { "name": "Mount Wood", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.424166666667, 7.42116666666667, 0],
+          "properties": {
+            "name": "Mount Akir-Akir",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.171, 6.30833333333333, 0],
+          "properties": { "name": "Balo Dome", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.1475, 6.24666666666667, 0],
+          "properties": { "name": "Base Peak", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.0955, 7.78716666666667, 0],
+          "properties": { "name": "Mount Baya", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.391666666667, 6.15433333333333, 0],
+          "properties": {
+            "name": "Bee Hive Peak",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.016666666667, 6.95, 0],
+          "properties": { "name": "Mount Binaca", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.283333333333, 7.5, 0],
+          "properties": { "name": "Mount Bito", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.214027777778, 6.95858333333333, 0],
+          "properties": { "name": "Mount Blik", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.847, 8.05666666666667, 0],
+          "properties": { "name": "Mount Catmon", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.125, 6.86666666666667, 0],
+          "properties": { "name": "Mount Gap", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.108333333333, 6.88333333333333, 0],
+          "properties": {
+            "name": "Mount Libadan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.141666666667, 6.93333333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 01",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.133333333333, 6.89166666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 02",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.15, 6.85833333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 03",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.133333333333, 6.84166666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 04",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.108333333333, 6.89166666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 05",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.1, 6.88333333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 06",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.083333333333, 6.91666666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 07",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.066666666667, 6.875, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 08",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.075, 6.85, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 09",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.1, 6.85833333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 12",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.108333333333, 6.8375, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 13",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.1, 6.83333333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 14",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.108333333333, 6.81666666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 15",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.104166666667, 6.80833333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 16",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.1, 6.79583333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 17",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.116666666667, 6.76666666666667, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 18",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [126.1, 6.87083333333333, 0],
+          "properties": {
+            "name": "Bolacanon Unnamed Cone 19",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.7075, 6.098, 0],
+          "properties": { "name": "Mount Bosa", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.861, 8.08416666666667, 0],
+          "properties": { "name": "Mount Bucas", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.766666666667, 9.11666666666667, 0],
+          "properties": { "name": "Mount Butay", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.083333333333, 7.75, 0],
+          "properties": { "name": "Mount Butung", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.233333333333, 7.54166666666667, 0],
+          "properties": {
+            "name": "Mount Cabugao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.116666666667, 8.56666666666667, 0],
+          "properties": {
+            "name": "Mount Calabugao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.708333333333, 9.20833333333333, 0],
+          "properties": { "name": "Campana Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.666833333333, 9.21666666666667, 0],
+          "properties": { "name": "Carling Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.945833333333, 7.81666666666667, 0],
+          "properties": {
+            "name": "Mount Dagumbaan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.129166666667, 7.64083333333333, 0],
+          "properties": {
+            "name": "Mount Dos Hermanas",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.078333333333, 7.77833333333333, 0],
+          "properties": {
+            "name": "Mount Gadungan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124, 7.88333333333333, 0],
+          "properties": {
+            "name": "Mount Galantay",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.766666666667, 9.1, 0],
+          "properties": {
+            "name": "Mount Guinsiliban",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.108333333333, 7.90833333333333, 0],
+          "properties": { "name": "Mount Gurain", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.966666666667, 7.825, 0],
+          "properties": {
+            "name": "Mount Inayawan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.925, 7.81666666666667, 0],
+          "properties": {
+            "name": "Mount Iniaoan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.916666666667, 8.13333333333333, 0],
+          "properties": {
+            "name": "Mount Kaatoan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.666666666667, 7.86666666666667, 0],
+          "properties": {
+            "name": "Mount Kabaritan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.816666666667, 7.75833333333333, 0],
+          "properties": {
+            "name": "Mount Kidongin",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.875, 7.95833333333333, 0],
+          "properties": {
+            "name": "Mount Kilakron",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.925, 8.12833333333333, 0],
+          "properties": {
+            "name": "Mount Kitanglad",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.662, 7.285, 0],
+          "properties": {
+            "name": "Mount Kitabud",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.928333333333, 7.84, 0],
+          "properties": { "name": "Mount Koloko", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.808333333333, 7.975, 0],
+          "properties": { "name": "Lauan Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.816666666667, 7.93333333333333, 0],
+          "properties": {
+            "name": "Pindulungan Hill",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.825, 7.94166666666667, 0],
+          "properties": {
+            "name": "Mount Kabanangan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.820833333333, 7.93333333333333, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 01",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.841666666667, 7.94166666666667, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 02",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.841666666667, 7.92916666666667, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 03",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.816666666667, 7.91666666666667, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 04",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.85, 7.86666666666667, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 05",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.858333333333, 7.875, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 06",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.866666666667, 7.925, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 07",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.858333333333, 7.95416666666667, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 08",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.866666666667, 7.95833333333333, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 09",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.875, 7.95, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 10",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.891666666667, 7.9375, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 11",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.891666666667, 7.9, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 12",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.925, 7.93333333333333, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 13",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.908333333333, 7.95833333333333, 0],
+          "properties": {
+            "name": "Lanao Unnamed Cone 14",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.598, 7.61833333333333, 0],
+          "properties": {
+            "name": "Mount Magampao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.311666666667, 7.65333333333333, 0],
+          "properties": {
+            "name": "Mount Malambo",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.9, 6.19166666666667, 0],
+          "properties": {
+            "name": "Mount Malibao",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.721666666667, 9.17166666666667, 0],
+          "properties": {
+            "name": "Mambajao Peak",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.133333333333, 7.96666666666667, 0],
+          "properties": { "name": "Mount Mamot", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.008333333333, 8.50833333333333, 0],
+          "properties": {
+            "name": "Mount Mangaban",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.561666666667, 7.77166666666667, 0],
+          "properties": {
+            "name": "Mount Maranat",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.591666666667, 7.57666666666667, 0],
+          "properties": {
+            "name": "Mount Mariyug",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.9, 7.725, 0],
+          "properties": {
+            "name": "Mount Micbacan",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.65, 9.21666666666667, 0],
+          "properties": { "name": "Minokol Hill", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.858333333333, 8.13333333333333, 0],
+          "properties": {
+            "name": "Mount Nanluyaw",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.016666666667, 6.39166666666667, 0],
+          "properties": { "name": "Mount Navaro", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.858333333333, 8.8, 0],
+          "properties": { "name": "Mount Obulan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.518333333333, 9.59333333333333, 0],
+          "properties": { "name": "Mount Paco", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.92, 8.83, 0],
+          "properties": {
+            "name": "Mount Pamalihi",
+            "classification": "inactive"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.906666666667, 7.915, 0],
+          "properties": { "name": "Mount Pana", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.383333333333, 6.9, 0],
+          "properties": { "name": "Patulangon", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.633333333333, 7.92333333333333, 0],
+          "properties": { "name": "Pudung", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.95, 6.58333333333333, 0],
+          "properties": { "name": "Quezon", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.422166666667, 8.11833333333333, 0],
+          "properties": { "name": "Sagada", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.858333333333, 7.84166666666667, 0],
+          "properties": { "name": "Salimbal", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.766666666667, 7.79166666666667, 0],
+          "properties": { "name": "Sigayan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.271666666667, 7.48333333333333, 0],
+          "properties": { "name": "Sinako", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.408333333333, 6.91666666666667, 0],
+          "properties": { "name": "Sibulan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.8, 7.46666666666667, 0],
+          "properties": { "name": "Table", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.8, 7.78333333333333, 0],
+          "properties": { "name": "Tagoan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.333333333333, 7.03333333333333, 0],
+          "properties": { "name": "Talomo", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.683333333333, 8.125, 0],
+          "properties": { "name": "Ticalan", "classification": "inactive" }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.6835, 9.19333333333333, 0],
+          "properties": {
+            "name": "Tres Marias Hill",
+            "classification": "inactive"
+          }
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "bbox": [120.008333333333, 5.03333333333333, 126.1, 16.5211666666667]
+}

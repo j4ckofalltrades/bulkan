@@ -1,0 +1,39 @@
+{
+  "name": "bulkan",
+  "version": "1.0.0",
+  "description": "GeoJSON and TopoJSON data for PH volcanoes.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j4ckofalltrades/bulkan.git"
+  },
+  "author": "Jordan Duabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j4ckofalltrades/bulkan/issues"
+  },
+  "homepage": "https://bulkan.vercel.app",
+  "devDependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "@types/geojson": "7946.0.8",
+    "@types/topojson": "^3.2.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "topojson-server": "^3.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": false
+  },
+  "lint-staged": {
+    "*.{geojson,topojson}": "prettier --write data"
+  }
+}

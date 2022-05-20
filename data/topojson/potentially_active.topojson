@@ -1,0 +1,204 @@
+{
+  "type": "Topology",
+  "objects": {
+    "potentially_active": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "coordinates": [120.805, 15.828],
+          "properties": {
+            "name": "Amorong",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.27, 7.008],
+          "properties": {
+            "name": "Apo",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.742, 15.2, 0],
+          "properties": {
+            "name": "Arayat",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.98, 8.77],
+          "properties": {
+            "name": "Balatukan",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.375, 5.4],
+          "properties": {
+            "name": "Balut",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [125.221, 10.287, 0],
+          "properties": {
+            "name": "Cabalían",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.7, 9.1],
+          "properties": {
+            "name": "Camiguin Mindanao",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.532, 10.412, 0],
+          "properties": {
+            "name": "Cancajanag",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.175, 9.258],
+          "properties": {
+            "name": "Cuernos de Negros",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.56, 5.44],
+          "properties": {
+            "name": "Dakut",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.8, 7.95],
+          "properties": {
+            "name": "Kalatungan",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.792, 14.02],
+          "properties": {
+            "name": "Labo",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.27, 14.42],
+          "properties": {
+            "name": "Laguna Caldera",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.47, 7.65],
+          "properties": {
+            "name": "Latukan",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [124.853, 10.872],
+          "properties": {
+            "name": "Mahagnao",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.597, 13.422],
+          "properties": {
+            "name": "Malinao",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [122.018, 13.24],
+          "properties": {
+            "name": "Malindig",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.25, 10.65],
+          "properties": {
+            "name": "Mandalagan",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.47, 14.52],
+          "properties": {
+            "name": "Mariveles",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.4, 14.705],
+          "properties": {
+            "name": "Natib",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.893, 13.723],
+          "properties": {
+            "name": "Panay",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [121.433333333333, 14.0666666666667],
+          "properties": {
+            "name": "San Cristobal",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [120.55, 16.33],
+          "properties": {
+            "name": "Santo Tomas Benguet",
+            "classification": "potentially_active"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [123.23, 10.77],
+          "properties": {
+            "name": "Silay",
+            "classification": "potentially_active"
+          }
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "bbox": [120.4, 5.4, 125.375, 16.33]
+}
