@@ -9,10 +9,7 @@
       "es6",
       "dom"
     ],
-    "rootDir": "src",
-    "types": [
-      "src/types"
-    ],
+    "rootDir": ".",
     "moduleResolution": "node"
   }
 }

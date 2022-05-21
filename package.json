@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/j4ckofalltrades/bulkan/issues"
   },
+  "types": "types",
   "homepage": "https://bulkan.vercel.app",
   "devDependencies": {
     "@mapbox/geojson-merge": "^1.1.1",
