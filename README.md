@@ -42,9 +42,11 @@ Follows the Philippine Institute of Volcanology and Seismology (PHIVOLCS) classi
 ## Visualization
 
 - Interactive map at [bulkan.vercel.app](https://bulkan.vercel.app)
-- View the rendered [geojson](data/geojson/_index.geojson) and [topojson](data/topojson/index.topojson) directly in GitHub
+- View the rendered [geojson](data/_index.geojson) and [topojson](data/_index.topojson) directly in GitHub
 - View the GeoJSON files at [geojson.io](https://geojson.io)
-- View changes locally by opening [index.html](index.html)
+- View the interactive map locally by running `npm start`
+
+<img src="assets/bulkan.png" alt="Interactive Map" height="714px" width="542px">
 
 ## Metadata
 
