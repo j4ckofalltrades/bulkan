@@ -1,11 +1,11 @@
-import { NavigationControl, Map, Popup, LngLatLike } from "maplibre-gl"
+import { LngLatLike, Map, NavigationControl, Popup } from "maplibre-gl"
 import "maplibre-gl/dist/maplibre-gl.css"
 import dataset from "../phl-volcanoes/data/_index.geojson"
 import active from "../assets/active.png"
 import potentially_active from "../assets/potentially_active.png"
 import inactive from "../assets/inactive.png"
 
-const markerImage = (classification: string): string => {
+const markerImage = (classification: string): unknown => {
   if (classification === "active") {
     return active
   } else if (classification === "potentially_active") {
@@ -36,10 +36,12 @@ map.on("load", () => {
   const classification = ["active", "potentially_active", "inactive"]
 
   classification.forEach((cl) => {
-    map.loadImage(markerImage(cl), (error, image) => {
+    map.loadImage(<string>markerImage(cl), (error, image) => {
       if (error) throw error
 
-      map.addImage(`${cl}-marker`, image!)
+      if (image) {
+        map.addImage(`${cl}-marker`, image)
+      }
 
       map.addLayer({
         id: `${cl}-volcanoes`,
@@ -78,9 +80,11 @@ map.on("load", () => {
   classification.forEach((c) => {
     map.on("mouseenter", `${c}-volcanoes`, (e) => {
       map.getCanvas().style.cursor = "pointer"
-      if ("coordinates" in e.features![0].geometry) {
+
+      const feature = e.features && e.features[0]
+      if (feature && "coordinates" in feature.geometry) {
         const coordinates: number[] =
-          e.features![0].geometry.coordinates.slice() as number[]
+          feature.geometry.coordinates.slice() as number[]
         // Ensure that if the map is zoomed out such that
         // multiple copies of the feature are visible, the
         // popup appears over the copy being pointed to.
@@ -90,7 +94,8 @@ map.on("load", () => {
 
         volcanoInfoPopup
           .setLngLat(coordinates as LngLatLike)
-          .setHTML("<strong>" + e.features![0].properties?.name + "</strong>")
+          // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
+          .setHTML("<strong>" + feature.properties?.name + "</strong>")
           .addTo(map)
       }
     })
