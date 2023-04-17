@@ -17,8 +17,7 @@ const markerImage = (classification: string): unknown => {
 
 const map = new Map({
   container: "map",
-  style:
-    "https://api.maptiler.com/maps/topo/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+  style: `https://api.maptiler.com/maps/topo/style.json?key=${process.env.MAPTILER_API_KEY}`,
   center: [121.871338, 12.114523],
   bounds: [
     [114.0952145, 4.2158064],
@@ -94,7 +93,6 @@ map.on("load", () => {
 
         volcanoInfoPopup
           .setLngLat(coordinates as LngLatLike)
-          // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
           .setHTML("<strong>" + feature.properties?.name + "</strong>")
           .addTo(map)
       }
