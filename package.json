@@ -24,11 +24,11 @@
     "@parcel/transformer-raw": "^2.8.3",
     "@parcel/transformer-typescript-tsc": "^2.8.3",
     "@types/geojson": "7946.0.10",
-    "@types/node": "^16.11.7",
+    "@types/node": "^18.16.0",
     "dotenv": "^16.0.3",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
-    "maplibre-gl": "^2.4.0",
+    "maplibre-gl": "^3.1.0",
     "parcel": "^2.8.3",
     "prettier": "^2.8.4",
     "typescript": "^5.0.2"
