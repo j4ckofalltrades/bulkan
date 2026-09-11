@@ -35,39 +35,42 @@ map.on("load", () => {
   const classification = ["active", "potentially_active", "inactive"]
 
   classification.forEach((cl) => {
-    map.loadImage(<string>markerImage(cl), (error, image) => {
-      if (error) throw error
+    map
+      .loadImage(<string>markerImage(cl))
+      .then(({ data: image }) => {
+        if (image) {
+          map.addImage(`${cl}-marker`, image)
+        }
 
-      if (image) {
-        map.addImage(`${cl}-marker`, image)
-      }
-
-      map.addLayer({
-        id: `${cl}-volcanoes`,
-        type: "symbol",
-        source: "volcanoes",
-        filter: ["==", "classification", cl],
-        layout: {
-          "icon-allow-overlap": true,
-          "icon-image": `${cl}-marker`,
-          "icon-size": [
-            "match",
-            ["get", "classification"],
-            "active",
-            1.3,
-            "potentially_active",
-            1,
-            "inactive",
-            0.5,
-            0.5,
-          ],
-          "text-size": 11,
-          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-          "text-offset": [0, 1.25],
-          "text-anchor": "top",
-        },
+        map.addLayer({
+          id: `${cl}-volcanoes`,
+          type: "symbol",
+          source: "volcanoes",
+          filter: ["==", "classification", cl],
+          layout: {
+            "icon-allow-overlap": true,
+            "icon-image": `${cl}-marker`,
+            "icon-size": [
+              "match",
+              ["get", "classification"],
+              "active",
+              1.3,
+              "potentially_active",
+              1,
+              "inactive",
+              0.5,
+              0.5,
+            ],
+            "text-size": 11,
+            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-offset": [0, 1.25],
+            "text-anchor": "top",
+          },
+        })
       })
-    })
+      .catch((error) => {
+        throw error
+      })
   })
 
   // show volcano details on hover
