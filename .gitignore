@@ -4,4 +4,6 @@
 dist/
 node_modules/
 public/
+src/vendor/
 .env
+.idea/

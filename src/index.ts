@@ -1,19 +1,26 @@
-import { LngLatLike, Map, NavigationControl, Popup } from "maplibre-gl"
+import {
+  LngLatLike,
+  Map,
+  NavigationControl,
+  Popup,
+  setWorkerUrl,
+} from "maplibre-gl"
 import "maplibre-gl/dist/maplibre-gl.css"
 import dataset from "../phl-volcanoes/data/_index.geojson"
-import active from "../assets/active.png"
-import potentially_active from "../assets/potentially_active.png"
-import inactive from "../assets/inactive.png"
 
-const markerImage = (classification: string): unknown => {
-  if (classification === "active") {
-    return active
-  } else if (classification === "potentially_active") {
-    return potentially_active
-  } else {
-    return inactive
-  }
+setWorkerUrl(new URL("./vendor/maplibre-gl-worker.mjs", import.meta.url).href)
+
+const markerImages: Record<string, string> = {
+  active: new URL("../assets/active.png", import.meta.url).href,
+  potentially_active: new URL(
+    "../assets/potentially_active.png",
+    import.meta.url
+  ).href,
+  inactive: new URL("../assets/inactive.png", import.meta.url).href,
 }
+
+const markerImage = (classification: string): string =>
+  markerImages[classification]
 
 const map = new Map({
   container: "map",
@@ -36,7 +43,7 @@ map.on("load", () => {
 
   classification.forEach((cl) => {
     map
-      .loadImage(<string>markerImage(cl))
+      .loadImage(markerImage(cl))
       .then(({ data: image }) => {
         if (image) {
           map.addImage(`${cl}-marker`, image)
